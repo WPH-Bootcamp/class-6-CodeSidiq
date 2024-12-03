@@ -17,7 +17,7 @@
     }
   } @else {
     @warn "Invalid color type: '#{$type}'.";
+    @return null;
   }
-  @return null;
 }
  
